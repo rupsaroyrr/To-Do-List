@@ -19,17 +19,6 @@ A simple desktop To-Do List mini-project developed using Python and Tkinter for 
 
 Tkinter is included with standard Python installations. When installing Python on Windows, select the option to install Tcl/Tk and IDLE if it is not already available.
 
-## Project Files
-
-```text
-python/
-|-- todo_list.py
-|-- tasks.txt
-`-- README.md
-```
-
-`tasks.txt` is created automatically after the first task is added or the task list is cleared. It is stored in the same folder as `todo_list.py`.
-
 ## Run in VS Code
 
 1. Install Python from https://www.python.org/downloads/.
@@ -104,24 +93,3 @@ This project is a desktop-based To-Do List Application developed using Python an
 - Apply input validation and confirmation dialogs.
 - Create a user-friendly task-management application.
 
-## Viva Questions
-
-1. **What is Tkinter?**
-
-   Tkinter is Python's standard library for creating graphical desktop applications.
-
-2. **What is the purpose of a Listbox?**
-
-   A Listbox displays multiple items and allows the user to select one or more of them.
-
-3. **How are tasks saved permanently?**
-
-   The application writes task lines to `tasks.txt` using Python's `open()` function.
-
-4. **What does `messagebox.showwarning()` do?**
-
-   It displays a warning dialog to inform the user about invalid input or an incorrect action.
-
-5. **Why is exception handling used for files?**
-
-   It allows the application to display a useful error instead of crashing when a file cannot be opened, read, or written.
